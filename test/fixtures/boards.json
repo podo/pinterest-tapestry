@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "549755885175",
+      "name": "Material Studies",
+      "description": "Textures and references",
+      "pin_count": 18,
+      "media": {
+        "image_cover_url": "https://i.pinimg.com/400x300/board-cover.jpg"
+      }
+    },
+    {
+      "id": "813744226420795885",
+      "name": "Summer Recipes",
+      "pin_count": 5,
+      "media": {
+        "image_cover_url": "https://i.pinimg.com/400x300/summer.jpg"
+      }
+    }
+  ],
+  "bookmark": null
+}
