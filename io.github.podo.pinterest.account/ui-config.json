@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "name": "source",
+      "type": "choices",
+      "prompt": "Feed",
+      "value": "Board",
+      "choices": "Board,All Pins,Search My Pins",
+      "placeholder": "Choose what to follow"
+    },
+    {
+      "name": "target",
+      "type": "text",
+      "prompt": "Board (optional)",
+      "placeholder": "https://www.pinterest.com/username/board-slug/ or username/board-slug"
+    },
+    {
+      "name": "search_query",
+      "type": "text",
+      "prompt": "Search query (optional)",
+      "placeholder": "Only used for Search My Pins"
+    },
+    {
+      "name": "show_description",
+      "type": "switch",
+      "prompt": "Show Descriptions",
+      "value": "on",
+      "placeholder": "When disabled, hides pin titles and descriptions."
+    },
+    {
+      "name": "batch_size",
+      "type": "choices",
+      "prompt": "Initial Item Limit",
+      "choices": "25,50,100",
+      "value": "50"
+    }
+  ]
+}

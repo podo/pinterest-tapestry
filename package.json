@@ -1,0 +1,14 @@
+{
+  "name": "pinterest-tapestry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pinterest connectors for Iconfactory Tapestry",
+  "scripts": {
+    "check": "node --check io.github.podo.pinterest.account/plugin.js",
+    "test": "node --test test/*.test.js",
+    "package": "sh scripts/package.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

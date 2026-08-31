@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.tapestry
+.DS_Store
